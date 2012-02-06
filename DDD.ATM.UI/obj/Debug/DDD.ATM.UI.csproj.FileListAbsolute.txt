@@ -1,0 +1,8 @@
+D:\MyResearch\Research\DDD.ATM.UI\obj\Debug\ResolveAssemblyReference.cache
+D:\MyResearch\Research\DDD.ATM.UI\obj\Debug\DDD.ATM.UI.Views.LoginForm.resources
+D:\MyResearch\Research\DDD.ATM.UI\obj\Debug\GenerateResource.read.1.tlog
+D:\MyResearch\Research\DDD.ATM.UI\obj\Debug\GenerateResource.write.1.tlog
+D:\MyResearch\Research\DDD.ATM.UI\bin\Debug\DDD.ATM.UI.exe
+D:\MyResearch\Research\DDD.ATM.UI\bin\Debug\DDD.ATM.UI.pdb
+D:\MyResearch\Research\DDD.ATM.UI\obj\Debug\DDD.ATM.UI.exe
+D:\MyResearch\Research\DDD.ATM.UI\obj\Debug\DDD.ATM.UI.pdb
