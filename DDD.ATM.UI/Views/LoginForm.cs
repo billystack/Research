@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
 using System.Windows.Forms;
+
 
 namespace DDD.ATM.UI.Views
 {
@@ -14,6 +9,18 @@ namespace DDD.ATM.UI.Views
 		public LoginForm()
 		{
 			InitializeComponent();
+			this.RegisterClientEvents();
+		}
+
+ 
+		private void RegisterClientEvents()
+		{
+			this.cmdLogin.Click += this.cmdLogin_Click;
+		}
+
+		private void cmdLogin_Click(object sender, EventArgs e)
+		{
+			// Presenter
 		}
 	}
 }
