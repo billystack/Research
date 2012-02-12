@@ -4,25 +4,29 @@ using System.Windows.Forms;
 
 namespace DDD.ATM.UI.Views
 {
-	public partial class LoginForm : Form
+	public partial class LoginForm : Form, DDD.ATM.UI.Views.ILoginForm
 	{
 		public LoginForm()
 		{
 			InitializeComponent();
-			this.RegisterClientEvents();
 
-			var X = DDD.ATM.UI.IOC.Container.Instance.Create<DDD.ATM.UI.Presenters.ILoginPresenter>();
+			this.RegisterClientEvents();
 		}
 
- 
+		public event EventAction OnAttemptLogin;
+
+
 		private void RegisterClientEvents()
 		{
-			this.cmdLogin.Click += this.cmdLogin_Click;
+			this.cmdLogin.Click += (s, e) => OnAttemptLogin();
 		}
 
-		private void cmdLogin_Click(object sender, EventArgs e)
+
+		public void Display(
+			DDD.ATM.UI.Presenters.LoginPresenter subject)
 		{
-			// Presenter
+			this.OnAttemptLogin += subject.AttemptLogin;
+			this.ShowDialog();
 		}
 	}
 }

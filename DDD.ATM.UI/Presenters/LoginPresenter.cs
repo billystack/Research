@@ -1,11 +1,22 @@
 ﻿using System;
+using IOCContainer = DDD.ATM.UI.IOC.Container;
 
 
 namespace DDD.ATM.UI.Presenters
 {
 	public class LoginPresenter : DDD.ATM.UI.Presenters.ILoginPresenter
 	{
-		public bool AttemptLogin()
+		private DDD.ATM.UI.Views.ILoginForm c_view;
+
+
+		public LoginPresenter(
+			DDD.ATM.UI.Views.ILoginForm subject)
+		{
+			this.c_view = subject;	
+		}
+
+
+		public void AttemptLogin()
 		{
 			throw new NotImplementedException();
 		}
@@ -13,7 +24,7 @@ namespace DDD.ATM.UI.Presenters
 
 		public void Display()
 		{
-			new DDD.ATM.UI.Views.LoginForm().ShowDialog();
+			this.c_view.Display(this);
 		}
 	}
 }

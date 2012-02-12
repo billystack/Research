@@ -1,4 +1,5 @@
 ﻿using System;
+using IOCContainer = DDD.ATM.UI.IOC.Container;
 
 namespace DDD.ATM.UI
 {
@@ -13,7 +14,7 @@ namespace DDD.ATM.UI
 			// TODO: Will have application bootstrapping here
 			new DDD.ATM.UI.Bootstrapper().Bootstrap();
 
-			var clientSearchFormPresenter = DDD.ATM.UI.IOC.Container.Instance.Create<DDD.ATM.UI.Presenters.ILoginPresenter>();
+			var clientSearchFormPresenter = IOCContainer.Instance.Create<DDD.ATM.UI.Presenters.ILoginPresenter>();
 
 			clientSearchFormPresenter.Display();
 

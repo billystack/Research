@@ -14,7 +14,8 @@ namespace DDD.ATM.UI
 
 			_container.Register<DDD.ATM.UI.Presenters.ILoginPresenter>(delegate
 				{
-					return new DDD.ATM.UI.Presenters.LoginPresenter();
+					return new DDD.ATM.UI.Presenters.LoginPresenter(
+						new DDD.ATM.UI.Views.LoginForm());
 				});
 		}
 	}
