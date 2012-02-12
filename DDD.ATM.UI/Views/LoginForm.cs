@@ -10,6 +10,8 @@ namespace DDD.ATM.UI.Views
 		{
 			InitializeComponent();
 			this.RegisterClientEvents();
+
+			var X = DDD.ATM.UI.IOC.Container.Instance.Create<DDD.ATM.UI.Presenters.ILoginPresenter>();
 		}
 
  

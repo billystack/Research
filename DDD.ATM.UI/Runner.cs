@@ -1,7 +1,6 @@
 ﻿using System;
 
-
-namespace Fohjin.DDD.BankApplication
+namespace DDD.ATM.UI
 {
 	static class Program
 	{
@@ -12,6 +11,11 @@ namespace Fohjin.DDD.BankApplication
 		static void Main()
 		{
 			// TODO: Will have application bootstrapping here
+			new DDD.ATM.UI.Bootstrapper().Bootstrap();
+
+			var clientSearchFormPresenter = DDD.ATM.UI.IOC.Container.Instance.Create<DDD.ATM.UI.Presenters.ILoginPresenter>();
+
+			clientSearchFormPresenter.Display();
 
 			// TODO: Will be using model/view presenter pattern here
 

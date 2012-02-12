@@ -46,7 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Bootstrapper.cs" />
-    <Compile Include="Container.cs" />
+    <Compile Include="IOC\Container.cs" />
     <Compile Include="Presenters\ILoginPresenter.cs" />
     <Compile Include="Presenters\LoginPresenter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
