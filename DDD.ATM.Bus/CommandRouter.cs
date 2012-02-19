@@ -4,9 +4,13 @@ using System.Collections.Generic;
 
 namespace DDD.ATM.Bus
 {
+	/// <summary>
+	/// This bus only takes care of commands only
+	/// TODO: Add queueing logic
+	/// </summary>
 	public class CommandRouter : DDD.ATM.Bus.ICommandRouter
 	{
-		private Dictionary<Type, dynamic> c_routes;
+		private readonly Dictionary<Type, dynamic> c_routes;
 
 
 		public CommandRouter()
@@ -35,6 +39,5 @@ namespace DDD.ATM.Bus
 
 			_commandHandler.Invoke(command);
 		}
-
 	}
 }
