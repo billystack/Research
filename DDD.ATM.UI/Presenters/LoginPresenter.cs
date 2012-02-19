@@ -6,7 +6,7 @@ namespace DDD.ATM.UI.Presenters
 {
 	public class LoginPresenter : DDD.ATM.UI.Presenters.ILoginPresenter
 	{
-		private DDD.ATM.UI.Views.ILoginForm c_view;
+		private readonly DDD.ATM.UI.Views.ILoginForm c_view;
 
 
 		public LoginPresenter(

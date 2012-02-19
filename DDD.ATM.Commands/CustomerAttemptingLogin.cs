@@ -3,7 +3,7 @@
 
 namespace DDD.ATM.Commands
 {
-	public class CustomerAttemptingLogin
+	public class CustomerAttemptingLogin : DDD.ATM.Commands.ICommand
 	{
 		private readonly string c_userName;
 		private readonly string c_password;
