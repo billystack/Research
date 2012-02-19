@@ -18,7 +18,9 @@ namespace DDD.ATM.UI.Presenters
 
 		public void AttemptLogin()
 		{
-			throw new NotImplementedException();
+			var _command = new DDD.ATM.Commands.CustomerAttemptingLogin(
+				this.c_view.Username,
+				this.c_view.Password);
 		}
 
 

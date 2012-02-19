@@ -60,7 +60,12 @@
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\DDD.ATM.Commands\DDD.ATM.Commands.csproj">
+      <Project>{EA13152B-92F9-48D9-B5B9-EDE46A8789EC}</Project>
+      <Name>DDD.ATM.Commands</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Views\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>

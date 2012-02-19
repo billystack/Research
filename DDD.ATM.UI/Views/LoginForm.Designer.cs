@@ -1,4 +1,6 @@
-﻿namespace DDD.ATM.UI.Views
+﻿using System;
+
+namespace DDD.ATM.UI.Views
 {
 	partial class LoginForm
 	{
@@ -100,5 +102,16 @@
 		private System.Windows.Forms.TextBox txtUsername;
 		private System.Windows.Forms.TextBox txtPassword;
 		private System.Windows.Forms.Label lblPassword;
+
+
+		public string Username
+		{
+			get { return this.txtUsername.Text; }
+		}
+
+		public string Password
+		{
+			get { return this.txtPassword.Text; }
+		}
 	}
 }
