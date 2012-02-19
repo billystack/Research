@@ -14,13 +14,10 @@
       <File id="BF9C652F-1099-465F-8711-320798003E5A/d:Views/f:LoginForm.cs" caret="264" fromTop="12" />
       <File id="BF9C652F-1099-465F-8711-320798003E5A/f:Runner.cs" caret="452" fromTop="16" />
       <File id="BF9C652F-1099-465F-8711-320798003E5A/d:Presenters/f:ILoginPresenter.cs" caret="120" fromTop="8" />
-      <File id="BF9C652F-1099-465F-8711-320798003E5A/d:Presenters/f:LoginPresenter.cs" caret="293" fromTop="15" />
+      <File id="BF9C652F-1099-465F-8711-320798003E5A/d:Presenters/f:LoginPresenter.cs" caret="335" fromTop="9" />
+      <File id="EA13152B-92F9-48D9-B5B9-EDE46A8789EC/f:CustomerAttemptingLogin.cs" caret="468" fromTop="21" />
     </RecentFiles>
     <RecentEdits>
-      <File id="BF9C652F-1099-465F-8711-320798003E5A/d:IOC/f:Container.cs" caret="861" fromTop="16" />
-      <File id="BF9C652F-1099-465F-8711-320798003E5A/d:IOC/f:Container.cs" caret="1477" fromTop="22" />
-      <File id="BF9C652F-1099-465F-8711-320798003E5A/d:IOC/f:Container.cs" caret="1485" fromTop="24" />
-      <File id="BF9C652F-1099-465F-8711-320798003E5A/d:IOC/f:Container.cs" caret="691" fromTop="7" />
       <File id="BF9C652F-1099-465F-8711-320798003E5A/d:Presenters/f:ILoginPresenter.cs" caret="15" fromTop="0" />
       <File id="BF9C652F-1099-465F-8711-320798003E5A/d:Presenters/f:ILoginPresenter.cs" caret="79" fromTop="4" />
       <File id="BF9C652F-1099-465F-8711-320798003E5A/f:Bootstrapper.cs" caret="420" fromTop="12" />
@@ -47,6 +44,10 @@
       <File id="BF9C652F-1099-465F-8711-320798003E5A/d:Presenters/f:ILoginPresenter.cs" caret="120" fromTop="8" />
       <File id="BF9C652F-1099-465F-8711-320798003E5A/d:Presenters/f:LoginPresenter.cs" caret="210" fromTop="9" />
       <File id="BF9C652F-1099-465F-8711-320798003E5A/d:Presenters/f:LoginPresenter.cs" caret="106" fromTop="2" />
+      <File id="EA13152B-92F9-48D9-B5B9-EDE46A8789EC/f:CustomerAttemptingLogin.cs" caret="461" fromTop="11" />
+      <File id="EA13152B-92F9-48D9-B5B9-EDE46A8789EC/f:CustomerAttemptingLogin.cs" caret="15" fromTop="0" />
+      <File id="EA13152B-92F9-48D9-B5B9-EDE46A8789EC/f:CustomerAttemptingLogin.cs" caret="451" fromTop="15" />
+      <File id="EA13152B-92F9-48D9-B5B9-EDE46A8789EC/f:CustomerAttemptingLogin.cs" caret="290" fromTop="10" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -62,8 +63,8 @@
   </UnitTestRunnerNUnit>
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
-      <Item value="this" priority="3" />
-      <Item value="private" priority="0" />
+      <Item value="this" priority="6" />
+      <Item value="private" priority="1" />
       <Item value="Dictionary" priority="0" />
       <Item value="ThreadStaticAttribute`0" priority="0" />
       <Item value="new" priority="2" />
@@ -73,16 +74,16 @@
       <Item value="if" priority="1" />
       <Item value="var" priority="2" />
       <Item value="creator" priority="0" />
-      <Item value="return" priority="1" />
+      <Item value="return" priority="2" />
       <Item value="else" priority="0" />
       <Item value="typeof" priority="0" />
       <Item value="_newObjectSingleton" priority="1" />
       <Item value="Container`0" priority="12" />
       <Item value="EnvironmentVariableTarget`0" priority="0" />
-      <Item value="public" priority="0" />
+      <Item value="public" priority="1" />
       <Item value="void" priority="0" />
       <Item value="bool" priority="0" />
-      <Item value="string" priority="1" />
+      <Item value="string" priority="2" />
       <Item value="DDD" priority="3" />
       <Item value="ATM" priority="3" />
       <Item value="UI" priority="3" />
@@ -91,6 +92,8 @@
       <Item value="LoginPresenter`0" priority="0" />
       <Item value="IOC" priority="2" />
       <Item value="Bootstrapper`0" priority="0" />
+      <Item value="userName" priority="0" />
+      <Item value="password" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:DDD.ATM.UI.Presenters.Base`1">
       <Item value="WireUpTheEventAndEventHandler`0" priority="0" />
@@ -124,6 +127,10 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:DDD.ATM.UI.IOC.Container">
       <Item value="Create`1" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DDD.ATM.Commands.CustomerAttemptingLogin">
+      <Item value="c_userName" priority="1" />
+      <Item value="c_password" priority="1" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>

@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.ATM.UI", "DDD.ATM.UI\DDD.ATM.UI.csproj", "{BF9C652F-1099-465F-8711-320798003E5A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.ATM.Commands", "DDD.ATM.Commands\DDD.ATM.Commands.csproj", "{EA13152B-92F9-48D9-B5B9-EDE46A8789EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{BF9C652F-1099-465F-8711-320798003E5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF9C652F-1099-465F-8711-320798003E5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF9C652F-1099-465F-8711-320798003E5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA13152B-92F9-48D9-B5B9-EDE46A8789EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA13152B-92F9-48D9-B5B9-EDE46A8789EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA13152B-92F9-48D9-B5B9-EDE46A8789EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA13152B-92F9-48D9-B5B9-EDE46A8789EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
