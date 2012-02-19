@@ -34,7 +34,6 @@ namespace DDD.ATM.Bus
 			// TODO: BS 19/02/2012 Throw an exception here if null...
 
 			_commandHandler.Invoke(command);
-			//_commandHandler.Invoke(command);
 		}
 
 	}
