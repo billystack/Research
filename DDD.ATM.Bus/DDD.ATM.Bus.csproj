@@ -42,6 +42,8 @@
   <ItemGroup>
     <Compile Include="Command.cs" />
     <Compile Include="CommandRouter.cs" />
+    <Compile Include="ICommand.cs" />
+    <Compile Include="ICommandRouter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
