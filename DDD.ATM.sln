@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.ATM.Commands", "DDD.ATM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.ATM.Bus", "DDD.ATM.Bus\DDD.ATM.Bus.csproj", "{B6BB6E56-A9BB-4006-973A-E20AF54ECB6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDD.ATM.CommandHandlers", "DDD.ATM.CommandHandlers\DDD.ATM.CommandHandlers.csproj", "{7BD09113-D12A-4B41-9662-ABA134BDD922}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{B6BB6E56-A9BB-4006-973A-E20AF54ECB6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6BB6E56-A9BB-4006-973A-E20AF54ECB6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6BB6E56-A9BB-4006-973A-E20AF54ECB6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BD09113-D12A-4B41-9662-ABA134BDD922}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BD09113-D12A-4B41-9662-ABA134BDD922}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BD09113-D12A-4B41-9662-ABA134BDD922}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BD09113-D12A-4B41-9662-ABA134BDD922}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

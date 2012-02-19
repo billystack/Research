@@ -17,6 +17,10 @@ namespace DDD.ATM.UI
 					return new DDD.ATM.UI.Presenters.LoginPresenter(
 						new DDD.ATM.UI.Views.LoginForm());
 				});
+
+			var _commandBus = new DDD.ATM.Bus.CommandRouter();
+			_commandBus.Register<DDD.ATM.Commands.CustomerAttemptingLogin>(
+				new DDD.ATM.CommandHandlers.CustomerAttemptingLogin().Execute);
 		}
 	}
 }

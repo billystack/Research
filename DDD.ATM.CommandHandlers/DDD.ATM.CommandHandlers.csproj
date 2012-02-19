@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{BF9C652F-1099-465F-8711-320798003E5A}</ProjectGuid>
-    <OutputType>WinExe</OutputType>
+    <ProjectGuid>{7BD09113-D12A-4B41-9662-ABA134BDD922}</ProjectGuid>
+    <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DDD.ATM.UI</RootNamespace>
-    <AssemblyName>DDD.ATM.UI</AssemblyName>
+    <RootNamespace>DDD.ATM.CommandHandlers</RootNamespace>
+    <AssemblyName>DDD.ATM.CommandHandlers</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,14 +30,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <PropertyGroup>
-    <StartupObject />
-  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -45,39 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bootstrapper.cs" />
-    <Compile Include="IOC\Container.cs" />
-    <Compile Include="Presenters\ILoginPresenter.cs" />
-    <Compile Include="Presenters\LoginPresenter.cs" />
+    <Compile Include="CustomerAttemptingLogin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Runner.cs" />
-    <Compile Include="Views\ActionDelegate.cs" />
-    <Compile Include="Views\ILoginForm.cs" />
-    <Compile Include="Views\LoginForm.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Views\LoginForm.Designer.cs">
-      <DependentUpon>LoginForm.cs</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DDD.ATM.Bus\DDD.ATM.Bus.csproj">
-      <Project>{B6BB6E56-A9BB-4006-973A-E20AF54ECB6F}</Project>
-      <Name>DDD.ATM.Bus</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\DDD.ATM.CommandHandlers\DDD.ATM.CommandHandlers.csproj">
-      <Project>{7BD09113-D12A-4B41-9662-ABA134BDD922}</Project>
-      <Name>DDD.ATM.CommandHandlers</Name>
-    </ProjectReference>
     <ProjectReference Include="..\DDD.ATM.Commands\DDD.ATM.Commands.csproj">
       <Project>{EA13152B-92F9-48D9-B5B9-EDE46A8789EC}</Project>
       <Name>DDD.ATM.Commands</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Views\LoginForm.resx">
-      <DependentUpon>LoginForm.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

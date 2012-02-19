@@ -8,7 +8,6 @@
   </SettingsComponent>
   <RecentFiles>
     <RecentFiles>
-      <File id="BF9C652F-1099-465F-8711-320798003E5A/f:Bootstrapper.cs" caret="300" fromTop="13" />
       <File id="BF9C652F-1099-465F-8711-320798003E5A/d:Views/f:LoginForm.cs" caret="264" fromTop="12" />
       <File id="BF9C652F-1099-465F-8711-320798003E5A/f:Runner.cs" caret="452" fromTop="16" />
       <File id="BF9C652F-1099-465F-8711-320798003E5A/d:Presenters/f:ILoginPresenter.cs" caret="120" fromTop="8" />
@@ -18,16 +17,12 @@
       <File id="BF9C652F-1099-465F-8711-320798003E5A/d:Presenters/f:LoginPresenter.cs" caret="196" fromTop="5" />
       <File id="EA13152B-92F9-48D9-B5B9-EDE46A8789EC/f:CustomerAttemptingLogin.cs" caret="115" fromTop="4" />
       <File id="EA13152B-92F9-48D9-B5B9-EDE46A8789EC/f:ICommand.cs" caret="165" fromTop="8" />
-      <File id="B6BB6E56-A9BB-4006-973A-E20AF54ECB6F/f:Command.cs" caret="64" fromTop="3" />
-      <File id="B6BB6E56-A9BB-4006-973A-E20AF54ECB6F/f:CommandRouter.cs" caret="184" fromTop="7" />
+      <File id="B6BB6E56-A9BB-4006-973A-E20AF54ECB6F/f:Command.cs" caret="142" fromTop="8" />
+      <File id="B6BB6E56-A9BB-4006-973A-E20AF54ECB6F/f:CommandRouter.cs" caret="664" fromTop="11" />
+      <File id="BF9C652F-1099-465F-8711-320798003E5A/f:Bootstrapper.cs" caret="543" fromTop="15" />
+      <File id="7BD09113-D12A-4B41-9662-ABA134BDD922/f:CustomerAttemptingLogin.cs" caret="212" fromTop="9" />
     </RecentFiles>
     <RecentEdits>
-      <File id="BF9C652F-1099-465F-8711-320798003E5A/d:IOC/f:Container.cs" caret="528" fromTop="10" />
-      <File id="BF9C652F-1099-465F-8711-320798003E5A/f:Bootstrapper.cs" caret="272" fromTop="8" />
-      <File id="BF9C652F-1099-465F-8711-320798003E5A/f:Bootstrapper.cs" caret="420" fromTop="13" />
-      <File id="BF9C652F-1099-465F-8711-320798003E5A/f:Bootstrapper.cs" caret="74" fromTop="5" />
-      <File id="BF9C652F-1099-465F-8711-320798003E5A/d:IOC/f:Container.cs" caret="245" fromTop="3" />
-      <File id="BF9C652F-1099-465F-8711-320798003E5A/f:Runner.cs" caret="29" fromTop="1" />
       <File id="BF9C652F-1099-465F-8711-320798003E5A/f:Runner.cs" caret="5978" fromTop="12" />
       <File id="BF9C652F-1099-465F-8711-320798003E5A/d:Views/f:LoginForm.Designer.cs" caret="3105" fromTop="11" />
       <File id="BF9C652F-1099-465F-8711-320798003E5A/d:Views/f:LoginForm.cs" caret="500" fromTop="12" />
@@ -46,12 +41,18 @@
       <File id="BF9C652F-1099-465F-8711-320798003E5A/d:Views/f:LoginForm.Designer.cs" caret="3538" fromTop="16" />
       <File id="BF9C652F-1099-465F-8711-320798003E5A/d:Presenters/f:LoginPresenter.cs" caret="196" fromTop="5" />
       <File id="B6BB6E56-A9BB-4006-973A-E20AF54ECB6F/f:Command.cs" caret="13" fromTop="0" />
-      <File id="B6BB6E56-A9BB-4006-973A-E20AF54ECB6F/f:Command.cs" caret="104" fromTop="6" />
       <File id="B6BB6E56-A9BB-4006-973A-E20AF54ECB6F/f:CommandRouter.cs" caret="52" fromTop="1" />
       <File id="EA13152B-92F9-48D9-B5B9-EDE46A8789EC/f:ICommand.cs" caret="17" fromTop="1" />
       <File id="EA13152B-92F9-48D9-B5B9-EDE46A8789EC/f:CustomerAttemptingLogin.cs" caret="115" fromTop="4" />
       <File id="EA13152B-92F9-48D9-B5B9-EDE46A8789EC/f:ICommand.cs" caret="149" fromTop="6" />
-      <File id="B6BB6E56-A9BB-4006-973A-E20AF54ECB6F/f:CommandRouter.cs" caret="184" fromTop="7" />
+      <File id="B6BB6E56-A9BB-4006-973A-E20AF54ECB6F/f:Command.cs" caret="131" fromTop="6" />
+      <File id="B6BB6E56-A9BB-4006-973A-E20AF54ECB6F/f:CommandRouter.cs" caret="982" fromTop="23" />
+      <File id="B6BB6E56-A9BB-4006-973A-E20AF54ECB6F/f:CommandRouter.cs" caret="335" fromTop="13" />
+      <File id="B6BB6E56-A9BB-4006-973A-E20AF54ECB6F/f:CommandRouter.cs" caret="664" fromTop="21" />
+      <File id="BF9C652F-1099-465F-8711-320798003E5A/f:Bootstrapper.cs" caret="543" fromTop="15" />
+      <File id="7BD09113-D12A-4B41-9662-ABA134BDD922/f:CustomerAttemptingLogin.cs" caret="94" fromTop="6" />
+      <File id="7BD09113-D12A-4B41-9662-ABA134BDD922/f:CustomerAttemptingLogin.cs" caret="212" fromTop="11" />
+      <File id="7BD09113-D12A-4B41-9662-ABA134BDD922/f:CustomerAttemptingLogin.cs" caret="15" fromTop="0" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -67,16 +68,16 @@
   </UnitTestRunnerNUnit>
   <CompletionStatisticsManager>
     <ItemStatistics item="Default">
-      <Item value="this" priority="10" />
+      <Item value="this" priority="11" />
       <Item value="private" priority="2" />
       <Item value="Dictionary" priority="0" />
       <Item value="ThreadStaticAttribute`0" priority="1" />
-      <Item value="new" priority="3" />
+      <Item value="new" priority="4" />
       <Item value="Dictionary&lt;Type,object&gt;" priority="0" />
-      <Item value="ctor" priority="0" />
+      <Item value="ctor" priority="1" />
       <Item value="Func" priority="0" />
       <Item value="if" priority="1" />
-      <Item value="var" priority="3" />
+      <Item value="var" priority="4" />
       <Item value="creator" priority="0" />
       <Item value="return" priority="4" />
       <Item value="else" priority="0" />
@@ -88,8 +89,8 @@
       <Item value="void" priority="0" />
       <Item value="bool" priority="0" />
       <Item value="string" priority="4" />
-      <Item value="DDD" priority="5" />
-      <Item value="ATM" priority="5" />
+      <Item value="DDD" priority="7" />
+      <Item value="ATM" priority="7" />
       <Item value="UI" priority="3" />
       <Item value="Presenters" priority="0" />
       <Item value="ILoginPresenter`0" priority="1" />
@@ -98,12 +99,14 @@
       <Item value="Bootstrapper`0" priority="0" />
       <Item value="userName" priority="0" />
       <Item value="password" priority="0" />
-      <Item value="Commands" priority="1" />
-      <Item value="CustomerAttemptingLogin`0" priority="0" />
+      <Item value="Commands" priority="2" />
+      <Item value="CustomerAttemptingLogin`0" priority="1" />
       <Item value="String`0" priority="0" />
       <Item value="ICommand`0" priority="1" />
-      <Item value="Bus" priority="0" />
-      <Item value="Command`0" priority="0" />
+      <Item value="Bus" priority="1" />
+      <Item value="Command`0" priority="1" />
+      <Item value="CommandRouter`0" priority="1" />
+      <Item value="_commandBus" priority="0" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:DDD.ATM.UI.Presenters.Base`1">
       <Item value="WireUpTheEventAndEventHandler`0" priority="0" />
@@ -153,6 +156,10 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:System.Windows.Forms.TextBox">
       <Item value="Text" priority="1" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:DDD.ATM.Bus.CommandRouter">
+      <Item value="c_routes" priority="0" />
+      <Item value="Register`0" priority="0" />
     </ItemStatistics>
   </CompletionStatisticsManager>
 </Configuration>
